@@ -1,0 +1,13 @@
+Revision history for Perl extension TagFilter.
+
+0.01  Fri Sep 14 01:19:43 2001
+		first version. worked. only permission filter: no denial rules.
+0.02  Mon Sep 17 2001
+		Added denial rules. Didn't work very well.
+0.03  Tues Sep 18 2001
+		Changed from trying to work out meaning of empty lists to using reserved words 'any', 'all', 'none'. Denial rules work for a while.
+0.04  Wed Sep 19 2001
+		Added _check() method to allow testing of values deep in HoHoHo without autovivification and subsequent mess. Denial rules also become less ambitious, more useful. Poddery grows more verbose.
+
+
+
